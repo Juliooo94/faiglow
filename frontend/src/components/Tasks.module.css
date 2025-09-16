@@ -1,0 +1,26 @@
+.container {
+  border-radius: 4px;
+  border: 1px solid lightgray;
+  padding: 4px;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.completed {
+  background-color: lightgreen;
+}
+
+.pending {
+  background-color: lightblue;
+}
+
+.title {
+  overflow: auto;
+}
+
